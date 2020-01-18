@@ -1,3 +1,5 @@
+require 'yaml'
+
 module RssWatcher
   class FeedManager
     def initialize cache_file_path
@@ -36,7 +38,7 @@ module RssWatcher
 
     def load_cache
       if File.exists? @cache_file_path
-        @cache = Marshal.load File.read(@cache_file_path)
+        @cache = YAML.load File.read(@cache_file_path)
       else
         @cache = {time: Time.now.to_i, items_title: []}
       end
@@ -50,9 +52,7 @@ module RssWatcher
     end
 
     def dump_cache
-      File.open(@cache_file_path, 'w') do |file|
-        file.write Marshal.dump(@cache)
-      end
+      File.write(@cache_file_path, YAML.dump(@cache))
     end
   end
 end
