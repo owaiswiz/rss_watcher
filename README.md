@@ -1,5 +1,6 @@
 # RssWatcher
-[![Gem Version](https://badge.fury.io/rb/rss_watcher.svg)](https://badge.fury.io/rb/rss_watcher) [![Gem](https://img.shields.io/gem/dt/rss_watcher.svg?colorB=brightgreen&maxAge=3600)](https://badge.fury.io/rb/rss_watcher) 
+[![Gem Version](https://badge.fury.io/rb/rss_watcher.svg)](https://badge.fury.io/rb/rss_watcher) [![Gem](https://img.shields.io/gem/dt/rss_watcher.svg?colorB=brightgreen&maxAge=3600)](https://badge.fury.io/rb/rss_watcher)
+
 A Ruby Gem For Watching RSS Feeds
 
 ## Installation

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rss_watcher (0.1.0)
+    rss_watcher (0.1.1)
       rss (~> 0.2.8)
 
 GEM
