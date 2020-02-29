@@ -8,7 +8,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.14.0)
-    rake (10.5.0)
+    rake (13.0.1)
     rss (0.2.8)
 
 PLATFORMS
@@ -17,7 +17,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.17)
   minitest (~> 5.0)
-  rake (~> 10.0)
+  rake (~> 13.0)
   rss_watcher!
 
 BUNDLED WITH
